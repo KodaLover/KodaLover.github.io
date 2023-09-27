@@ -1,0 +1,129 @@
+/** 
+    Author: Sally Student
+    Course: CIS 133DA
+    Lesson: 10
+**/
+
+/* This stylesheet will be used for screen widths between 495px and 857px */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0;
+}
+
+#wrapper {
+    background-color: #ddd;
+    margin-top: 50px;
+}
+
+/* Header Styles */
+header {
+    background: black url(../images/background.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+    margin: 0;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin: 0;
+}
+
+/* Navigation Bar Styles */
+
+nav ul {
+    list-style-type: none;
+    background-color: #2d3437;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #135367;
+    color: #ffffff;
+}
+
+nav .right {
+    background-color: #E1693D;
+    color: #000000;
+    float: right;
+}
+
+nav .active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+nav {
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+/* Main Styles */
+main {
+    padding: 20px;
+    width: 95%; /*adjusted to percent for tablet styles*/
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+}
+
+/*Card Styles */
+
+.card {
+    display: inline-block;
+    width: 400px;
+    box-sizing: border-box;
+    background-color: white; 
+    margin: 5px; 
+}
+
+.card img { /*Step 3-4*/
+    float: left;
+    width: 100px;
+    box-sizing: border-box;
+    background-color: #E1693D;
+    padding: 30px;
+    margin-right: 10px;
+}
+
+.card h2 { /*Step 3-5, 3-6, 3-7*/
+    margin: 0;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.card p { /*Step 3-6 & 3-7*/
+    margin: 0;
+    font-size: small;
+    padding: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #d3e13d; /*Adjusted*/
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}

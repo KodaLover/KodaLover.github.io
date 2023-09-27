@@ -1,0 +1,130 @@
+/** 
+    Author: Sally Student
+    Course: CIS 133DA
+    Lesson: 10
+**/
+
+/* This stylesheet will be used for screen widths of 495px or less */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0;
+}
+
+#wrapper {
+    background-color: #ddd;
+    margin-top: 10px; /*Adjusted for mobile*/
+}
+
+/* Header Styles */
+header {
+    background: black url(../images/background.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+    margin: 0;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin: 0;
+}
+
+/* Navigation Bar Styles */
+
+nav ul {
+    list-style-type: none;
+    background-color: #2d3437;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px; /*Adjusted for mobile*/
+    font-size: smaller; /*Added for mobile*/
+}
+
+nav a:hover {
+    background-color: #135367;
+    color: #ffffff;
+}
+
+nav .right {
+    background-color: #E1693D;
+    color: #000000;
+    float: right;
+}
+
+nav .active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+nav {
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+/* Main Styles */
+main {
+    padding: 20px;
+    width: 100%; /*Adjusted*/
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+}
+
+/*Card Styles */
+
+.card {
+    
+    width: 350px; /*Adjusted*/
+    box-sizing: border-box;
+    background-color: white; 
+    margin: 5px; 
+}
+
+.card img { 
+    float: left;
+    width: 100px;
+    box-sizing: border-box;
+    background-color: #E1693D;
+    padding: 10px; /*Adjusted*/
+    margin-right: 10px;
+}
+
+.card h2 { 
+    margin: 0;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.card p { 
+    margin: 0;
+    font-size: small;
+    padding: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #3de179; /*Adjusted*/
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Accessibility</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="First Last">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--
+        Course
+        Section
+        Lesson
+    -->
+    <header>
+        <h1>Our Commitment to Accessibility</h1>
+
+        <p>We are committed to providing an accessible website for all users to interact with.</p>
+    </header>
+    <main>
+
+
+        <img src="images/access-image.jpg" alt="Artistic rendering of disabilities">
+
+        <h3>Web Users and Web Accessibility</h5>
+            <table>
+                <tr>
+                    <th>Disability</th>
+                    <th>Description</th>
+                    <th>Common Barriers</th>
+                    <th>Accessibility Principles to Apply</th>
+                </tr>
+                <tr>
+                    <td>Auditory</td>
+                    <td>Auditory disabilities range from mild or moderate hearing loss in one or both ears (hard of
+                        hearing) to uncorrectable hearing loss in both ears (deafness).</td>
+                    <td>Some common barriers those with auditory disabilities face are audio content without captions or
+                        transcripts, media players that do not provide volume control, captions, or options to adjust
+                        the side and color of text.</td>
+                    <td>Captions and other alternatives for multimedia: Text transcripts and captions are provided for
+                        audio content.</td>
+                </tr>
+                <tr>
+                    <td>Cognitive and Neurological</td>
+                    <td>Captions and other alternatives for multimedia: Text transcripts and captions are provided for
+                        audio content.</td>
+                    <td>Some barriers people with these disabilities face are complex navigation schemes, web browsers
+                        and media players that do not provide mechanisms to stop animations and audio, long passages of
+                        text without images or other illustrations to highlight the context.</td>
+                    <td>Content appears and operates in predictable ways: Navigation appears on multiple pages in the
+                        same place each time.</td>
+                </tr>
+                <tr>
+                    <td>Physical</td>
+                    <td>Also called "motor disabilities" include weakness and limitations of muscular control,
+                        limitations of sensation, joint disorders, pain that impedes movement, and missing limbs.</td>
+                    <td>Websites, web browsers, and authoring tools that do not provide full keyboard support, time
+                        limits that do not provide enough time to complete tasks, inconsistent and overly complicated
+                        navigation.</td>
+                    <td>Users have enough time to read and use the content: Users have the ability to stop, extend, or
+                        adjust time limits.</td>
+                </tr>
+                <tr>
+                    <td>Speech</td>
+                    <td>Speech disabilities include difficulty producing speech, such as loudness or clarity of one's
+                        voice.</td>
+                    <td>Barriers for people with these disabilities include web based services that rely on interaction
+                        using voice only, and websites that offer phone number as the only way to communicate</td>
+                    <td>Content can be presented in different ways: Structural tags are added and marked-up properly.
+                        Browsers and assistive technologies have settings to customize presentations.</td>
+                </tr>
+                <tr>
+                    <td>Visual</td>
+                    <td>Visual disabilities range from mild vision loss in one or both eyes (low vision) to
+                        uncorrectable vision loss in both eyes (blindness). Some people have color blindness or
+                        increased sensitivity to bright colors.</td>
+                    <td>Examples of barriers include images that do not have text alternatives, page layouts that cannot
+                        be resized, and text and images with insufficient contrast.</td>
+                    <td>Content does not cause seizures: Avoid including flashing content. Content that flashed at
+                        certain rates can cause photosensitive reaction, like seizures.</td>
+                </tr>
+            </table>
+
+            <h1>Survey</h1>
+            <form name="myForm" id="test" action="https://secure.riosalado.edu/cis-course-resources/postscript.aspx"
+                method="post">
+                <p>We'd love to hear from you regarding the Accessibility of our website. If you'd like, please take
+                    this brief survey and leave us your name and email address if you'd like us to get back in contact
+                    with you.</p>
+
+                <h3>Feedback Type</h3>
+                <p>What type of feedback would you like to share? <em>Please select all that apply</em>:</p>
+
+                <fieldset>
+                    <legend>Type of Feedback</legend>
+                    <label><input type="checkbox" name="Type" value="Suggestion"> Suggestion on how to improve
+                        Accessibility on the website</label><br>
+                    <label><input type="checkbox" name="Type" value="Issue"> Issue with the Accessibility of the
+                        website</label><br>
+                    <label><input type="checkbox" name="Type" value="Comment"> Share a comment about how our
+                        Accessibility features helped you or others</label><br>
+                </fieldset>
+
+                <h3>Satisfaction</h3>
+                <p>How satisfied are you with the Accessibility features we provide?</p>
+
+                <fieldset>
+                    <legend>Rate your Satisfaction</legend>
+                    <label><input type="radio" name="Satisfaction" value="5 - Very Satisfied"> 5 - Very
+                        Satisfied</label><br>
+                    <label><input type="radio" name="Satisfaction" value="4"> 4</label><br>
+                    <label><input type="radio" name="Satisfaction" value="3"> 3</label><br>
+                    <label><input type="radio" name="Satisfaction" value="2"> 2</label><br>
+                    <label><input type="radio" name="Satisfaction" value="1"> 1</label><br>
+                    <label><input type="radio" name="Satisfaction" value="0 - Very Dissatisfied"> 0 - Very
+                        Dissatisfied</label>
+                </fieldset>
+
+                <h3>Improvements</h3>
+                <label for="feedback">Please enter any feedback you have to provide you with a better
+                    service:</label><br>
+                <textarea id="feedback" name="Feedback" rows="5" cols="60"></textarea>
+
+                <h3>Contact Details (Optional)</h3>
+                <label>Name: <input type="text" name="FirstName" id="firstname"></label><br>
+                <label>Email Address: <input type="email" name="EmailAddress"></label><br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+    </main>
+    <footer>
+        <!- Citation for image used on the page ->
+            <p style="text-align:center;">Renma, Cris (2016). [Untitled photograph of different disabilities]. Retrieved
+                from <a href="https://pixabay.com/en/accessibility-disability-1682903/">Pixabay</a></p>
+    </footer>
+</body>
+
+</html>

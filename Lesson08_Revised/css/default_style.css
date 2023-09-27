@@ -1,0 +1,124 @@
+/*Author: Sally Student
+Course: CIS133DA
+Lesson 8
+*/
+
+/** Body Styles **/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0;
+}
+
+/*Step #7*/
+#wrapper {
+    background-color: lightgray;
+    margin-top: 50px;
+    
+}
+
+/** Header Styles **/
+header {
+    background: #2d3437 url(../images/background.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+    margin: 0;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin: 0;
+}
+/** Navigation Styles **/
+
+
+nav ul { 
+    list-style-type: none;
+    background-color: #2d3437;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+ }
+nav li { float: left; }
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+ }
+nav a:hover { background-color: #135367; }
+
+/*Step #4*/
+nav .active {
+    background-color: #ffffff;
+    color: #2d3437;
+}
+
+/*Step #5*/
+nav .right {
+    float: right;
+    background-color: orange;
+    color: #000000;
+}
+
+/*Step #6*/
+nav {
+    top: 0;
+    position: absolute; /*absolute fixes it to the top of the page, relative fixes it to the top relative to its placement within the HTML which is right below the header graphic*/
+    width: 100%;
+}
+/** Main Styles **/
+/*Step #8 - instructions specify everything except padding which is already set*/
+main { 
+    width: 900px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Step #9*/
+aside {
+    background-color: rgb(61, 60, 60);
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}
+
+/*Step #10*/
+aside img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /*This will clip the image to fit to the size of the container*/
+    opacity: 60%;
+}
+
+/*Step #11*/
+aside img:hover {
+    opacity: 100%;
+}
+
+/*Step #12*/
+aside p {
+    margin: 0;
+    color: gray;
+}
+
+/*Step #13*/
+aside a {
+    color: rgb(245, 137, 137);
+}
+
+/** Footer Styles **/
+footer {
+    background-color: #2d3437;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer a { color: white; }
